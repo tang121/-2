@@ -1,0 +1,125 @@
+* { margin: 0; padding: 0; }
+body { background:rgb(214,214,214); }
+#beijing { width: 1000px;height: 100%;background-color: white;margin:0 auto; }
+#daohang { width: 1000px;height: 40px;background-color: rgb(239,237,237); }
+.daohang { float: left; }
+#daohang-1 { height: 28.75px;width: 150px; line-height: 40px;padding: 6px 0 6px 100px;}
+#daohang-2 { width: 350px;height: 40px;float: left; margin-left: 70px;}
+.daohang-2 { width: 70px; height: 40px; float: left;font-size: 14px;line-height: 40px;text-align: center;}
+.daohang-2 a { text-decoration: none; }
+.daohang-2:hover { background:#FA8072; cursor: pointer;}
+.daohang-3 { float: right;height: 30px;padding: 5px; }
+.daohang-3 img { width: 30px; }
+#daohang-3 { margin-right: 50px; }
+
+
+#img1 { width: 1000px;height: 430px;  position: relative;}
+#img1-1 { position: absolute; top:200px;left:350px;width: 350px;}
+
+#img11 { width: 1000px; height: 340px; }
+#img11 img { width: 1000px;height: 362px;  }
+
+
+#biaoti { width: 64px;height: 50px;background-color: white;margin: 20px auto; text-align: center;line-height: 50px; border-bottom: 3px solid red;}
+#lianxi { width: 64px;height: 50px;background-color:rgb(214,214,214) ;margin: 0 auto; text-align: center;line-height: 50px; border-bottom: 3px solid red; }
+
+
+#img2 { width: 1000px;height: 261px;border-bottom: 1px solid gray;}
+#img2-1 { width: 660px;height: 260px;margin: 0 auto;border-bottom: 1px solid red; }
+.img2-1 {width:200px;height: 200px; float: left; margin: 10px;}
+.img2-1 img { width:200px;height: 150px;  }
+.img2-1 p { display: block;margin-top: 30px;text-align: center;font-size: 12px; color: gray;}
+
+
+
+#daohang2 { width: 600px;height: 50px; margin-top: 20px;margin:0 auto;}
+.daohang2 { width: 100px;height: 50px; float: left;line-height: 50px;text-align: center;font-size: 14px; color: gray;} 
+
+
+
+
+#img3 { width: 800px;height: 480px;margin: 10px auto; }
+.img3-1 img { width: 250px;height: 170px; }
+.img3-1 { width: 250px; height: 230px; float: left;margin:8px;}
+.img3-1 p { display: block;margin-top: 15px; text-align: center;font-size: 14px;color: gray; }
+
+
+
+#img4 { width: 1000px;height: 359px; position: relative;}
+#img4-1 { width:1000px; height: 359px;}
+#img4-2 { position: absolute;top: 80px;left: 100px; width: 300px;}
+#img4-3 { position: absolute;top: 30px;left: 450px; width: 400px;}
+
+
+
+#hezuo { width: 64px;height: 50px;background-color: white;margin: 20px auto; text-align: center;line-height: 50px; border-bottom: 3px solid red;}
+
+#img5 { width: 800px;height: 220px;margin: 10px auto; }
+.img5 { width: 142px;height: 75px;float: left;margin:5px;border:1px solid lightgray; }
+
+#lianxi { width: 64px;height: 50px;background-color: rgb(226,226,226);margin: 20px auto; text-align: center;line-height: 50px; border-bottom: 3px solid red;}
+#dibu { width: 1000px;height: 630px; background-color: rgb(226,226,226); position: relative;}
+
+#map { width: 800px;height:320px; margin:10px auto;}
+#map img { width: 800px;height:320px; }
+
+.erweima { width: 120px;height: 160px; text-align: center;}
+.erweima p { display: block;margin-top: 10px; }
+.erweima img { width: 120px;height: 120px; }
+#erweima-1 { position: absolute;top: 450px;left: 150px; }
+#erweima-2 { position: absolute;top: 450px;left: 300px; }
+#wenzi p { font-size: 12px;color: gray;display: block;margin-top:5px ; }
+#wenzi { position: absolute;top: 450px;left: 550px; }
+
+
+#end { widows: 1000px; height: 50px;background-color: rgb(23,24,25); position: relative;}
+#end p { font-size: 10px;color: lightgray; position: absolute;top: 20px;left: 300px;}
+
+#tu1 { width: 1000px;height: 260px; }
+#tu1 img { width: 1000px; } 
+#tu2 { width: 1000px;height: 360px; position: relative; }
+#tu2 img:first-child { width: 1000px; } 
+#tu2 img:first-child+img { top:70px;left:150px;width: 250px; position: absolute;top: }
+#tu2 img:last-child {  position: absolute;top:20px;left: 500px;height: 300px; }
+
+#biaoti { width: 64px;height: 50px;background-color: white;margin: 20px auto; text-align: center;line-height: 50px; border-bottom: 3px solid red;font-size: 14px;color: gray;}
+
+#tu3 { width: 700px;height: 400px; margin: 0 auto;}
+#tu3 img { width: 700px;height: 400px; }
+
+#tu4 { height:453px;width: 1000px; position: relative; }
+#tu4>img:first-child{ height:453px;width: 1000px;}
+#tuandui { width: 64px;height: 50px; text-align: center;line-height: 50px; border-bottom: 3px solid white;font-size: 14px;position: absolute;top: 10px;left: 470px;color: white;}
+
+
+.tu4-1 { width:180;height: 300px;}
+.tu4-1 img:hover{ cursor: pointer; }
+#tu41 { width: 720px;height: 300px; position: absolute;top: 120px;left: 150px;}
+
+
+#tu5 { width: 1000px;height: 400px; margin:30px auto;}
+#tu5 img { width: 1000px;height: 400px; }
+
+
+
+
+table { width: 700px;height: 100%; font-size: 12px;color: gray;margin:0 auto;border-collapse: collapse;}
+td { height: 50px;border-bottom:1px solid lightgray; }
+.td1 { text-align: center; }
+#page { width: 220px;height: 30px;float: right; line-height: 30px;text-align: center;margin-top: 10px;margin-bottom: 50px;}
+#left { width: 50px;height: 30px; float: left;background: url(res/huan_03.png);border:1px solid lightgray;line-height: 30px;text-align: center;background-size: 50px 30px;}
+#right { width: 50px;height: 30px;float: left; border:1px solid lightgray;background: url(res/huan_05.png) ;line-height: 30px;text-align: center;background-size: 50px 30px;background-position: 5px;}
+.page-1 { width: 30px;height: 30px;float: left;border:1px solid lightgray; line-height: 30px;text-align: center;margin:0 2px;}
+.page-1:hover { border-color: red; }
+#left:hover { border-color: red; }
+#right:hover { border-color: red; }
+
+.clear { clear: both; }
+
+
+
+#tu6 { width: 1000px;height: 260px; position: relative;}
+#daohang-in { position: absolute;width: 700px;height: 50px;background-color: rgba(239,237,237,0.7);top: 210px; left: 150px;border-top-left-radius: 8px;border-top-right-radius: 8px;} 
+#daohang-in span { display: inline-block; width: 70px;height: 30px;margin:0px 10px;text-align: center;line-height: 30px;margin-top: 15px;}
+#daohang-in span:hover { border-bottom: 2px solid red;cursor: pointer; }
+#daohang-in span:first-child { margin-left: 70px; }
